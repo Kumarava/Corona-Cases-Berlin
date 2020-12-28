@@ -1,0 +1,20 @@
+{
+  "name": "corona_berlin_update",
+  "version": "1.0.0",
+  "description": "Telegram bot for corona cases in Berlin",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Kumar Kozhobaev",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6",
+    "telegraf": "^3.38.0"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
